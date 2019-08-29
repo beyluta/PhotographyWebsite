@@ -1,0 +1,116 @@
+body,
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .cover-image {
+            background-image: url('imgs/mountain.jpg');
+            background-size: cover;
+            background-position: bottom;
+            background-attachment: inherit;
+            height: 70vh;
+            padding-top: 25px;
+            font-family: 'Indie Flower', cursive;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .header-div {
+            color: white;
+            font-family: 'Muli', sans-serif;
+            font-size: 14px;   
+            max-width: 600px;     
+        }
+
+        .slogan {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 50px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .img-left-ico{
+            float: left;
+            vertical-align: middle;
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+
+        .img-left-ico:hover{
+            cursor: pointer;
+        }
+        
+        .nav-button {
+            vertical-align: middle;
+            padding-right: 25px;
+            transition: ease-in-out .2s;
+            margin-right: 15px;
+            text-align: right;
+            float: right;
+        }
+
+        .nav-button:hover {
+            cursor: pointer;
+        }
+
+        .about-div {
+            padding-top: 85px;
+            padding-bottom: 85px;
+            max-width: 1800px;
+        }
+
+        .portrait {
+            display: inline-block;
+            vertical-align: middle;
+            width: 300px;
+            -webkit-box-shadow: 10px 10px 44px -13px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 44px -13px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 10px 44px -13px rgba(0, 0, 0, 0.75);
+        }
+
+        .portrait-info {
+            width: 30%;
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 25px;
+        }
+
+        .portrait-name{
+            color: dimgray;
+        }
+
+        .portrait-desc{
+            text-align: left;
+            color: dimgray;
+        }
+
+        .gallery {
+            padding-bottom: 85px;
+        }
+
+        .gallery>img {
+            border-radius: 50px;
+        }
+
+        .gallery-img {
+            border-radius: 5px;
+            padding: 00px;
+            margin: 5px;
+            filter: grayscale(0);
+            -moz-filter: grayscale(0);
+            -webkit-filter: grayscale(0);
+            transition: ease-in-out .5s;
+        }
+
+        .gallery-img:hover {
+            filter: grayscale(1);
+            -moz-filter: grayscale(1);
+            -webkit-filter: grayscale(1);
+            background-size: 90% 90%;
+            cursor: pointer;
+        }
